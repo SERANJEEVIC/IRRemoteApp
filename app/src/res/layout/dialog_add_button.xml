@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+<LinearLayout android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <EditText android:id="@+id/etLabel" android:hint="Button label e.g., ON" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/etFrequency" android:hint="Frequency e.g., 38000" android:inputType="number" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/etPattern" android:hint="Pattern CSV e.g., 9000,4500,560,560,... " android:inputType="textMultiLine" android:layout_width="match_parent" android:layout_height="120dp"/>
+</LinearLayout>
+</ScrollView>

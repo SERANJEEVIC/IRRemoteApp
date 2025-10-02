@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:text="IR Finder" android:textSize="20sp" />
+        <EditText android:id="@+id/etFrequency" android:hint="Frequency (Hz) e.g. 38000" android:inputType="number" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etPatternInput" android:hint="Paste pattern CSV e.g. 9000,4500,560,560,..." android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btnPastePattern" android:text="Preview Pattern" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/tvPatternPreview" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Preview will show here"/>
+        <Button android:id="@+id/btnSimulateSend" android:text="Transmit (Test)" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btnCopyToClipboard" android:text="Copy Preview" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <TextView android:id="@+id/tvArduinoInstructions" android:layout_marginTop="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Arduino instructions" />
+    </LinearLayout>
+</ScrollView>
